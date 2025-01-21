@@ -5,19 +5,19 @@ import Silder from '../components/silder/Silder';
 import Main from '../components/main/Main';
 import Testimonial from '../testimonial/Testimonial';
 import Review from '../components/review/Review';
+import Footer from '../components/footer/Footer';
 
-const Home = () => {
-  return (
-      <div>
-          <NavBar></NavBar>
-          <Main></Main>
-          <Review></Review>
-          <Quality></Quality>
-          <Silder></Silder>
-          <Testimonial></Testimonial>
-      
+const Home = () => (
+    <div>
+        <NavBar></NavBar>
+        <Main></Main>
+        <Review></Review>
+        <Quality></Quality>
+        <Silder></Silder>
+        <Testimonial></Testimonial>
+        <Footer />
+
     </div>
-  );
-}
+)
 
 export default Home;

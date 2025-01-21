@@ -1,0 +1,141 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 20px 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 80px;
+}
+
+.headingSection {
+  max-width: 600px;
+}
+
+.mainHeading {
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.subHeading {
+  color: #888;
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.greenDot {
+  width: 8px;
+  height: 8px;
+  background-color: #00dc82;
+  border-radius: 50%;
+}
+
+.featureText {
+  font-size: 14px;
+  color: #fff;
+}
+
+.description {
+  max-width: 300px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 16px;
+}
+
+.socialIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}
+
+.legalLinks {
+  display: flex;
+  gap: 24px;
+}
+
+.legalLink {
+  color: #666;
+  text-decoration: none;
+}
