@@ -1,7 +1,7 @@
 import React from "react";
 import windmill from "./windmill.jpg";
 import mill from "./mill.jpg";
-import "./Main.css"; // Import the CSS file
+import "./Main.css"; 
 
 const Main = () => {
   return (
