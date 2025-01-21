@@ -1,0 +1,107 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 30px;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #000;
+  position: relative;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: -20px;
+
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+
+  
+}
+
+.navbar-links a:hover {
+  color: #05a422e8; /* Gradient-like hover effect */
+}
+
+
+.login-icon {
+  display: flex;
+  gap: 15px; /* Space between login links */
+}
+
+.login-icon a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.login-icon a:hover {
+  color: #00f2fe;
+}
+.login-button{
+    border-radius: 30px;
+    padding: 8px 15px;
+
+}
+.get-button{
+    border-radius: 30px;
+    background-color: #05a422e8;
+    color:white;
+}
+.navbar-logo{
+    height: 60px;
+    width: 80px;
+   
+    border-radius: 70%;
+}
+/* Toggle Button */
+.navbar-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #fff; /* White background for dropdown */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .login-icon {
+    display: none; /* Optionally hide login icons on smaller screens */
+  }
+}
